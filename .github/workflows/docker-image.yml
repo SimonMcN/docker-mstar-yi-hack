@@ -2,11 +2,11 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "1master" ]
- #   branches: [ "master" ]
+ #  branches: [ "1master" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "1master" ]
- #   branches: [ "master" ]
+ #   branches: [ "1master" ]
+    branches: [ "master" ]
 
 jobs:
 
