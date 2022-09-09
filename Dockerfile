@@ -6,7 +6,7 @@ MAINTAINER Borja Rodríguez Diliz <borja.rodriguez.diliz@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y software-properties-common \
         language-pack-en-base sudo supervisor git build-essential unzip p7zip-full mtd-tools binwalk \
-        rsync autoconf bison flex yui-compressor libxml2-utils
+        rsync autoconf bison flex yui-compressor libxml2-utils libssl-dev and zlib1g-dev
 
 ################# Install packages ################
 
