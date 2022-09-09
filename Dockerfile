@@ -23,7 +23,7 @@ RUN apt-get update && \
 ENV NOTVISIBLE "in users profile"
 
 RUN echo "export VISIBLE=now" >> /etc/profile
-################ End SSH ################
+################ End SSH #################
 
 ################ Section cross-compiling ################
 RUN tar xfvz /opt/yi/arm-linux-gnueabihf-4.8.3-201404.tar.gz -C /opt/yi/
