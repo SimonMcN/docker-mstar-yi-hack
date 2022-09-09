@@ -1,4 +1,5 @@
-FROM i386/ubuntu:19.10
+#ROM ubuntu:latest
+#FROM i386/ubuntu:19.10
 
 MAINTAINER Borja Rodríguez Diliz <borja.rodriguez.diliz@gmail.com>
 
